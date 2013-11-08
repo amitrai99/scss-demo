@@ -68,4 +68,6 @@ Sass allows us to do simple mathematical operations like +, -, /, *, % etc.
 
 ### Misc
 
-SASS website http://sass-lang.com/.
+* SASS website http://sass-lang.com/.
+* Compass Installation http://compass-style.org/install/
+
