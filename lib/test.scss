@@ -9,33 +9,31 @@
 declaration of $font-stack and $primary-color. 
 Notice how these are declared using a simple CSS like syntax  
 */
-$font-stack: Helvetica, sans-serif;
-$primary-color: #333;
-
+$bg-color: #ccc;
 
 body {
-  font: 100% $font-stack;
-  color: $primary-color;
+  background-color: $bg-color;
 }
 
 /*
   == Nesting ==
 
-  We can nest declaration like HTML and SCSS will automatically process and generate the correct CSS for us.
+  We can nest declaration like HTML and SCSS will automatically process and generate the desired CSS.
+  The preprocessor will create a set of selectors that will have the common properties and then add/override selector specific properties.
 
  */
 
-nav {
+div.mod {
   background : red;
 
   /* ul nested inside nav */
-  ul {
+  section {
     margin: 0;
     padding: 0;
-    list-style: none;
 
-    /* li nested inside ul */
-    li {
+    /* ul nested inside section */
+    ul {
+      list-style: none;
       float: left;
       margin: 0;
       padding: 0;
@@ -73,8 +71,7 @@ nav {
 
 ==Mixins==
 
-Mixin is created when we combine the properties of two or more objects to form the third object.
-
+Mixin is created when we combine the properties of two or more objects.
 A good use of mixin in CSS would be to use it for the new CSS3 vendor prefixes.
 
 Mixins are declared using the "@mixin" declarative.
