@@ -10,6 +10,19 @@ Install Compass or Sass for pre-processing the stylesheets.
 * [Install Compass] (http://compass-style.org/install/)
 * [Install Sass] (http://sass-lang.com/install)
 
+To make Compass watch the file and update the CSS every time the Sass file changes run the following from terminal:
+
+```
+compass watch --sass-dir src/ --css-dir build/
+```
+
+To make Sass do the same:
+
+```
+sass --watch src/:build/
+```
+
+We assume that _src_ and _build_ are the code and output directory.
 
 ##Intro
 SCSS provides the following features that makes writing CSS fun.
