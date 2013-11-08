@@ -1,4 +1,8 @@
-scss-demo
+SCSS demo
 =========
 
-A sample tutorial for SCSS
+A sample tutorial for SCSS.
+
+SASS website http://sass-lang.com/.
+
+
