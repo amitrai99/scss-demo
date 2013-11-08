@@ -3,6 +3,15 @@ SCSS demo
 
 Tutorial for SCSS.
 
+##Prerequisites
+
+Install Compass or Sass for pre-processing the stylesheets.
+
+* [Install Compass] (http://compass-style.org/install/)
+* [Install Sass] (http://sass-lang.com/install)
+
+
+##Intro
 SCSS provides the following features that makes writing CSS fun.
 
 ###Variables
@@ -12,7 +21,7 @@ Variables are declared using the __$__ sign in front of the variable name.
 $color: #ccc;
 ```
 
-##Nesting
+###Nesting
 
   We can nest declaration like HTML and SCSS will automatically process and generate the correct CSS for us.
 
