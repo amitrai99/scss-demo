@@ -3,7 +3,7 @@ SCSS demo
 
 Tutorial for SCSS.
 
-##Prerequisites
+## Prerequisites
 
 Install Compass or Sass for pre-processing the stylesheets.
 
@@ -24,17 +24,17 @@ sass --watch src/:build/
 
 We assume that _src_ and _build_ are the code and output directory.
 
-##Intro
+## Intro
 SCSS provides the following features that makes writing CSS fun.
 
-###Variables
+### Variables
 Variables are declared using the __$__ sign in front of the variable name.
 
 ```scss
 $color: #ccc;
 ```
 
-###Nesting
+### Nesting
 
   We can nest declaration like HTML and SCSS will automatically process and generate the correct CSS for us.
 
@@ -54,7 +54,7 @@ div {
 }
 ```
 
-###Partials
+### Partials
 
   Partials are like the include files.
   These are used to modularize the CSS code.
@@ -68,7 +68,7 @@ div {
 
   import 'filename';
 
-###Mixins
+### Mixins
 
 Mixin is created when we combine the properties of two or more objects.
 
@@ -77,14 +77,14 @@ A good use of mixin in CSS would be to use it for the new CSS3 vendor prefixes.
 Mixins are declared using the _@mixin_ declarative.
 Mixins can be called using the _@include_ declarative.
 
-###Extend/Inheritance
+### Extend/Inheritance
 
 Works just like classical inheritance.
 
 * Create a base css selector with a base set of properties.
 * Use the "@extend" declarative Extend/Inherit the base class to create the Sub class/Child class.
 
-###Mathematical Operators
+### Mathematical Operators
 
 Sass allows us to do simple mathematical operations like +, -, /, *, % etc.
 
